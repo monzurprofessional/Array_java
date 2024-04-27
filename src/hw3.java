@@ -1,8 +1,13 @@
+/*
+Write a Java program that will take input of two arrays and elements from the user and check
+whether the second array is a subset of the first array. A subset is a set that contains only
+elements found in the original set.
+ */
 import java.util.*;
 public class hw3 {
     public static void main (String[]args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter the length of array 1:");
+        System.out.print("Please enter the length of array 1:");
 
         int array1_length1 = sc.nextInt();
         int [] array1 = new int[array1_length1];
@@ -13,7 +18,7 @@ public class hw3 {
             array1[i]=sc.nextInt();
         }
 
-        System.out.println("Please enter the length of array 2:");
+        System.out.print("Please enter the length of array 2:");
         int array2_length1 = sc.nextInt();
         int [] array2 = new int[array2_length1];
 

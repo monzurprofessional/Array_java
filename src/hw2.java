@@ -1,7 +1,8 @@
-/*You are given an integer array. You need to create a new array that will contain
+/*
+You are given an integer array. You need to create a new array that will contain
 only the unique elements of the given array. Finally, print the new array.
-            *** SAMPLE INPUT: int arr [] = {23,100,23,56,100};***
-            *** SAMPLE OUTPUT : 23 100 56  ***
+              *** SAMPLE INPUT: int arr [] = {23,100,23,56,100};***
+               *** SAMPLE OUTPUT : 23 100 56  ***
 */
 import java.util.*;
 public class hw2 {

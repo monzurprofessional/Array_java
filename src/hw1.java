@@ -8,13 +8,14 @@
         b. Show the minimum element and its index from the array.
         c. Show the summation of all the elements from the array.
         d. Show the average of all the elements from the array.
-                  *** SAMPLE INPUT:***
+                    *** SAMPLE INPUT:***
                          Enter the length of the array: 5
                          Enter a number: 7.5
                          Enter a number: -31.2
                          Enter a number: 344.0
                          Enter a number: 97.1 Enter a number: 100.4
-                     *** SAMPLE OUTPUT:***
+
+                       *** SAMPLE OUTPUT:***
                          Maximum element 344.0 found at index 2
                          Minimum element -31.2 found at index 1
                          Summation: 517.8

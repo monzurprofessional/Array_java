@@ -1,3 +1,8 @@
+/*
+Take an integer N input from the user and create an array of length N by taking the elements as
+user input. Then, print the array. Next, sort the array in descending order using Selection Sort
+ technique. Lastly, print the sorted array.
+ */
 import java.util.Scanner;
 public class hw5{
     public static void main(String[]args){
