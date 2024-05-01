@@ -1,0 +1,42 @@
+import java.util.Arrays;
+
+public class hw7 {
+
+    public static void main(String args[]){
+
+        int [] myArray = new int[10];
+        System.out.println(Arrays.toString(myArray));
+
+        int index1 = 0, index2 =0;
+        System.out.println("index1: " + index1);
+        System.out.println("index2: " + index2);
+
+        while (index1 < 10){
+
+            myArray[index1] = index1 + 3;
+           // System.out.println("myArray[index1] " + myArray[index1]);
+            System.out.println(Arrays.toString(myArray));
+
+            index2 = 1;
+            System.out.println("index2: " + index2);
+            while (index2 < index1 ){
+
+                myArray[index1] = myArray[index1] + myArray[index2] - index1;
+               // System.out.println("myArray[index1] " + myArray[index1]);
+                System.out.println(Arrays.toString(myArray));
+                index2 = index2 + 1;
+                System.out.println("index2: " + index2);
+
+            }
+
+           // System.out.println(myArray[index1]);
+           System.out.println("output " + myArray[index1]);
+
+            index1 = index1 + 1;
+            System.out.println("index1: " + index1);
+
+        }
+
+    }
+
+}
