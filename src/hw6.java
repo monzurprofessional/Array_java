@@ -37,14 +37,14 @@ public class hw6 {
         System.out.println("Sorted Array");
         for (int i = 0; i < marks.length ; i++) {
             System.out.print(marks[i]);
-            if(i!= marks.length){
+            if(i!= marks.length-1){
                 System.out.print(" ");
             }
         }
         System.out.println();
         for (int i = 0; i < names.length ; i++) {
             System.out.print(names[i]);
-            if(i!= marks.length){
+            if(i!= marks.length-1){
                 System.out.print(" ");
             }
         }

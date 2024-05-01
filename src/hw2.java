@@ -4,7 +4,7 @@ only the unique elements of the given array. Finally, print the new array.
               *** SAMPLE INPUT: int arr [] = {23,100,23,56,100};***
                *** SAMPLE OUTPUT : 23 100 56  ***
 */
-import java.util.*;
+import java.util.Scanner;
 public class hw2 {
     public static void main(String[] args) {
         int[] array = {23, 100, 23, 56, 100};
@@ -36,13 +36,17 @@ public class hw2 {
         System.out.println("Input array:");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]);
-            System.out.print(" ");
+            if(i!= array.length-1) {
+                System.out.print(" ");
+            }
         }
         System.out.println();
         System.out.println("New array:");
         for (int i = 0; i < final_array.length; i++) {
             System.out.print(final_array[i]);
-            System.out.print(" ");
+            if(i!= final_array.length-1) {
+                System.out.print(" ");
+            }
         }
         // System.out.println(Arrays.toString(final_array));
 

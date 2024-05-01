@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55e0e6fb-e497-4cf5-b8ca-67009029e5f5" name="Changes" comment="all problems">
+      <change afterPath="$PROJECT_DIR$/src/cw1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ev1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ev2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hw1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hw2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hw6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;monzurprofessional&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/monzurprofessional/Array_java.git&quot;,
+    &quot;accountId&quot;: &quot;7e1d891f-3f3e-4c4f-a637-50ef5f81a451&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -36,14 +53,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TraceC.executor": "Run",
+    "Application.cw1.executor": "Run",
+    "Application.cw2.executor": "Run",
+    "Application.cw3.executor": "Run",
+    "Application.ev1.executor": "Run",
+    "Application.ev2.executor": "Run",
     "Application.hw1.executor": "Run",
     "Application.hw2.executor": "Run",
     "Application.hw3.executor": "Run",
     "Application.hw4.executor": "Run",
     "Application.hw5.executor": "Run",
     "Application.hw6.executor": "Run",
+    "Application.hw7.executor": "Run",
+    "Application.hw8.executor": "Run",
+    "Application.hw9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "vcs.Git"
   }
@@ -73,8 +99,27 @@
       <option name="project" value="LOCAL" />
       <updated>1714216485621</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-০০০০৩" summary="all problems">
+      <option name="closed" value="true" />
+      <created>1714217150263</created>
+      <option name="number" value="০০০০৩" />
+      <option name="presentableId" value="LOCAL-০০০০৩" />
+      <option name="project" value="LOCAL" />
+      <updated>1714217150264</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all problems" />

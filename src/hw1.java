@@ -21,7 +21,7 @@
                          Summation: 517.8
                          Average: 103.56
  */
-import java.util.*;
+import java.util.Scanner;
 public class hw1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -29,29 +29,30 @@ public class hw1 {
 
         double [] array = new double[sc.nextInt()];
         double sum =0;
-
+        System.out.print("Enter a number: ");
         for (int i = 0; i <array.length ; i++) {
             double a = sc.nextDouble();
             sum+=a;
             array[i]=a;
         }
-        System.out.println(Arrays.toString(array));
+
         double max =array[0];
         int max_index =0;
 
         double min =array[0];
         int min_index =0;
 
-        for (int i = 1; i <array.length ; i++) {
-            if (array[i]>max){
-                max=array[i];
-                max_index=i;
-            }
-        }
+
         for (int i = 1; i <array.length ; i++) {
             if (array[i]<min){
                 min=array[i];
                 min_index=i;
+            }
+        }
+        for (int i = 1; i <array.length ; i++) {
+            if (array[i]>max){
+                max=array[i];
+                max_index=i;
             }
         }
         System.out.println("Maximum element " + max + "found at index " +  max_index);
